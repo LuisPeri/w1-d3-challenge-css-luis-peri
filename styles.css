@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000cm;
+}
+
+header {
+  background-color: rgba(39, 153, 137, 255);
+  color: rgba(255, 255, 254, 255);
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 8px;
+  margin: 0%;
+  padding-inline: 8px;
+}
+
+.bought-items {
+  background-color: rgba(68, 160, 128, 255);
+  color: rgba(255, 255, 255, 255);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0%;
+  flex-wrap: nowrap;
+}
+
+main {
+  background-color: rgba(255, 200, 69, 255);
+  height: 99cm;
+}
