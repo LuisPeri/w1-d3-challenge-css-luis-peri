@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -19,18 +21,22 @@ header {
   padding-inline: 8px;
 }
 
+main {
+  background-color: rgba(255, 200, 69, 255);
+  height: 99cm;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
 .bought-items {
+  height: 30;
+  padding: 8px;
   background-color: rgba(68, 160, 128, 255);
   color: rgba(255, 255, 255, 255);
-  font-size: 16px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   flex-direction: row;
   margin: 0%;
-  flex-wrap: nowrap;
-}
-
-main {
-  background-color: rgba(255, 200, 69, 255);
-  height: 99cm;
 }
